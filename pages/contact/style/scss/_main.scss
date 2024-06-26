@@ -1,0 +1,90 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 70px 300px;
+  }
+.main-wrapper {
+  padding-bottom: 50px;
+  h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+
+  }
+  h1 {
+    font-family: 'Sen', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    text-align: center;
+  }
+  p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #6D6E76;
+    padding-top: 10px;
+  }
+}
+.main-schedule {
+  background-color: #592EA9;
+  padding: 40px 50px;
+  display: flex;
+  gap: 30px;
+  h1 {
+    font-family: 'Sen', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+
+  }
+  .text {
+    padding-bottom: 30px;
+    font-size: 14px;
+  }
+  p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding-top: 5px;
+  }
+  .main__working-hours {
+    width: 50%;
+  }
+  
+}
+
+.main-data {
+  padding-top: 30px;
+  input, select, textarea {
+    width: 100%;
+    border: 1px solid #6D6E7680;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  button {
+    width: 100%;
+    border: none;
+    background-color: #FFD050;
+    font-family: 'Sen', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    padding: 15px;
+    border-radius: 2px;
+  }
+}

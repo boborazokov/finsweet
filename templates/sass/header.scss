@@ -1,0 +1,77 @@
+@import "../sass/normale.scss";
+
+header {
+  background: #232536;
+  padding: 20px 0;
+
+  .wrapper-header {
+    max-width: 1282px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 47px;
+
+    .nav {
+      display: flex;
+      align-items: center;
+      position: relative;
+
+      .nav-list {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        li {
+          a {
+            color: white;
+            text-decoration: none;
+          }
+          button {
+            padding: 16px 48px;
+            gap: 12px;
+          }
+        }
+      }
+
+      .burger-menu {
+        display: none;
+        cursor: pointer;
+
+        i {
+          font-size: 24px;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+/* Медиазапросы для адаптивности */
+@media (max-width: 768px) {
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #232536;
+    width: 200px;
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 10;
+
+    li {
+      margin: 10px 0;
+    }
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .nav.nav-active .nav-list {
+    display: flex;
+  }
+}

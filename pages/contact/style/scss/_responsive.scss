@@ -1,0 +1,43 @@
+@media (max-width: 1250px) {
+    .container {
+        padding: 70px 100px;
+    }
+}
+@media (max-width: 850px) {
+    .container {
+        padding: 70px 50px;
+    }
+}
+@media (max-width: 700px) {
+    .main-wrapper {
+        h1{
+            font-size: 40px;
+            line-height: 44px;
+            padding-top: 15px;
+        }
+        h4, p {
+            font-size: 14px;
+        }
+    }
+    .main-schedule {
+        flex-direction: column;
+        gap: 50px;
+        .main__working-hours {
+            width: 100%;
+        }
+        .text {
+            padding-bottom: 5px;
+        }
+    }
+    .main-data {
+        button {
+            font-size: 18px;
+            padding: 12px;
+        }
+    }
+}
+@media (max-width: 400px) {
+    .main-schedule {
+        padding: 25px 30px;
+    }
+}
