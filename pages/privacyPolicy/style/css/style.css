@@ -35,7 +35,6 @@ header {
   background: #232536;
   padding: 20px 0;
 }
-
 header .wrapper-header {
   max-width: 1282px;
   width: 100%;
@@ -45,34 +44,28 @@ header .wrapper-header {
   align-items: center;
   padding: 0 47px;
 }
-
 header .wrapper-header .nav {
   display: flex;
   align-items: center;
   position: relative;
 }
-
 header .wrapper-header .nav .nav-list {
   display: flex;
   align-items: center;
   gap: 30px;
 }
-
 header .wrapper-header .nav .nav-list li a {
   color: white;
   text-decoration: none;
 }
-
 header .wrapper-header .nav .nav-list li button {
   padding: 16px 48px;
   gap: 12px;
 }
-
 header .wrapper-header .nav .burger-menu {
-  display: none;
   cursor: pointer;
+  display: none;
 }
-
 header .wrapper-header .nav .burger-menu i {
   font-size: 24px;
   color: white;
@@ -95,18 +88,18 @@ header .wrapper-header .nav .burger-menu i {
   .nav-list li {
     margin: 10px 0;
   }
-  .burger-menu {
+  header .wrapper-header .nav .burger-menu {
     display: block;
   }
   .nav.nav-active .nav-list {
-    display: flex;
+    display: none;
   }
 }
 .container {
   width: 100%;
   margin: 0 auto;
   padding: 70px 0;
-  background-color: #F4F0F8;
+  background-color: #f4f0f8;
 }
 
 .main-wrapper h1 {
@@ -116,7 +109,6 @@ header .wrapper-header .nav .burger-menu i {
   letter-spacing: -2px;
   text-align: center;
 }
-
 .main-wrapper p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -129,7 +121,6 @@ header .wrapper-header .nav .burger-menu i {
 .main-text {
   padding: 50px 300px;
 }
-
 .main-text h5 {
   font-family: "Sen", sans-serif;
   font-size: 40px;
@@ -139,7 +130,6 @@ header .wrapper-header .nav .burger-menu i {
   letter-spacing: -2px;
   padding-top: 15px;
 }
-
 .main-text p {
   font-family: Inter;
   font-size: 16px;
@@ -330,6 +320,6 @@ footer {
     letter-spacing: -1px;
     line-height: 40px;
   }
-} 
+}
 
 /*# sourceMappingURL=style.css.map */

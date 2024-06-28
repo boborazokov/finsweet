@@ -47,8 +47,8 @@ header .wrapper-header .nav .nav-list li button {
   gap: 12px;
 }
 header .wrapper-header .nav .burger-menu {
-  display: none;
   cursor: pointer;
+  display: none;
 }
 header .wrapper-header .nav .burger-menu i {
   font-size: 24px;
@@ -72,10 +72,12 @@ header .wrapper-header .nav .burger-menu i {
   .nav-list li {
     margin: 10px 0;
   }
-  .burger-menu {
+  header .wrapper-header .nav .burger-menu {
     display: block;
   }
   .nav.nav-active .nav-list {
     display: flex;
   }
-}/*# sourceMappingURL=header.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

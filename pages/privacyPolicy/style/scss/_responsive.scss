@@ -1,24 +1,24 @@
 @media (max-width: 1300px) {
-    .main-text {
-        padding: 50px 150px;
-    }
+  .main-text {
+    padding: 50px 150px;
+  }
 }
 @media (max-width: 900px) {
-    .main-text {
-        padding: 50px;
-    }
+  .main-text {
+    padding: 50px;
+  }
 }
 @media (max-width: 600px) {
-    .main-wrapper {
-        h1 {
-            font-size: 40px;
-        } 
+  .main-wrapper {
+    h1 {
+      font-size: 40px;
     }
-    .main-text {
-        h5 {
-            font-size: 30px;
-            letter-spacing: -1px;
-            line-height: 40px;
-        } 
-    }  
+  }
+  .main-text {
+    h5 {
+      font-size: 30px;
+      letter-spacing: -1px;
+      line-height: 40px;
+    }
+  }
 }

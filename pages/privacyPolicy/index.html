@@ -3,18 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <link rel="stylesheet" href="./style/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
+    <title>Document</title>
   </head>
   <body>
     <header>
@@ -23,14 +17,14 @@
           <img src="../../svg/Logo.svg" alt="Logo" />
         </a>
         <nav class="nav">
-          <ul class="nav-list">
+          <ul id="burger__wrapper" class="nav-list">
             <li><a href="../home/index.html">Home</a></li>
             <li><a href="../blogPost/index.html">Blog</a></li>
             <li><a href="../aboutUs/index.html">About Us</a></li>
             <li><a href="../contact/index.html">Contact us</a></li>
             <li><button>Subscribe</button></li>
           </ul>
-          <div class="burger-menu">
+          <div class="burger-menu" onclick="handleClick()">
             <i class="fas fa-bars"></i>
           </div>
         </nav>

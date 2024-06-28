@@ -196,6 +196,7 @@ header {
   background: #232536;
   padding: 20px 0;
 }
+
 header .wrapper-header {
   max-width: 1282px;
   width: 100%;
@@ -205,28 +206,34 @@ header .wrapper-header {
   align-items: center;
   padding: 0 47px;
 }
+
 header .wrapper-header .nav {
   display: flex;
   align-items: center;
   position: relative;
 }
+
 header .wrapper-header .nav .nav-list {
   display: flex;
   align-items: center;
   gap: 30px;
 }
+
 header .wrapper-header .nav .nav-list li a {
   color: white;
   text-decoration: none;
 }
+
 header .wrapper-header .nav .nav-list li button {
   padding: 16px 48px;
   gap: 12px;
 }
+
 header .wrapper-header .nav .burger-menu {
   display: none;
   cursor: pointer;
 }
+
 header .wrapper-header .nav .burger-menu i {
   font-size: 24px;
   color: white;
@@ -268,6 +275,7 @@ section {
   justify-content: center;
   background: #f4f0f8;
 }
+
 .wrapper-blog-bissnes div {
   width: 100%;
   display: flex;
@@ -280,6 +288,7 @@ section {
   width: 100%;
   margin: 50px 0;
 }
+
 .wrapper-blog-bissnes div h1 {
   font-family: Sen;
   font-size: 56px;
@@ -288,6 +297,7 @@ section {
   letter-spacing: -2px;
   text-align: center;
 }
+
 .wrapper-blog-bissnes div p {
   font-family: Inter;
   font-size: 16px;
@@ -296,6 +306,7 @@ section {
   text-align: center;
   color: #6d6e76;
 }
+
 .wrapper-blog-bissnes div h3 {
   font-family: Inter;
   font-size: 16px;
@@ -310,15 +321,18 @@ section {
   background-color: #f5f5f5;
   border-bottom: 1px solid #ddd;
 }
+
 .wrapper-blog-bissnes h1 {
   font-size: 24px;
   margin-bottom: 10px;
 }
+
 .wrapper-blog-bissnes p {
   font-size: 16px;
   color: #666;
   margin-bottom: 5px;
 }
+
 .wrapper-blog-bissnes h3 {
   font-size: 14px;
   color: #aaa;
@@ -330,6 +344,7 @@ section {
   padding: 20px;
   width: 100%;
 }
+
 .wrapper-categoriius .cart-categorious {
   display: flex;
   align-items: center;
@@ -341,20 +356,24 @@ section {
   overflow: hidden;
   background-color: #fff;
 }
+
 .wrapper-categoriius .cart-categorious .wrapper-imgs {
   max-width: 294px;
 }
+
 .wrapper-categoriius .cart-categorious .wrapper-imgs img {
   width: 100%;
   height: auto;
   display: block;
 }
+
 .wrapper-categoriius .cart-categorious .wrapper-yext-carts {
   padding: 15px;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
+
 .wrapper-categoriius .cart-categorious .wrapper-yext-carts h6 {
   color: #6c63ff;
   font-family: Inter;
@@ -364,6 +383,7 @@ section {
   letter-spacing: 3px;
   text-align: left;
 }
+
 .wrapper-categoriius .cart-categorious .wrapper-yext-carts h2 {
   font-family: Inter;
   font-size: 16px;
@@ -372,6 +392,7 @@ section {
   letter-spacing: 3px;
   text-align: left;
 }
+
 .wrapper-categoriius .cart-categorious .wrapper-yext-carts p {
   font-family: Inter;
   font-size: 16px;
@@ -387,20 +408,24 @@ section {
   background-color: #f9f9f9;
   border-left: 1px solid #ddd;
 }
+
 .sidebar .categories,
 .sidebar .tags {
   margin-bottom: 20px;
 }
+
 .sidebar .categories h4,
 .sidebar .tags h4 {
   font-size: 16px;
   margin-bottom: 10px;
 }
+
 .sidebar .categories ul,
 .sidebar .tags ul {
   list-style: none;
   padding: 0;
 }
+
 .sidebar .categories ul li,
 .sidebar .tags ul li {
   margin-bottom: 10px;
@@ -410,14 +435,17 @@ section {
   background-color: #fff;
   transition: background-color 0.3s;
 }
+
 .sidebar .categories ul li.active,
 .sidebar .tags ul li.active {
   background-color: #ffd700;
 }
+
 .sidebar .categories ul li.active a,
 .sidebar .tags ul li.active a {
   color: #333;
 }
+
 .sidebar .categories ul li a,
 .sidebar .tags ul li a {
   text-decoration: none;
@@ -426,24 +454,29 @@ section {
   display: block;
   text-align: center;
 }
+
 .sidebar .categories ul li a span,
 .sidebar .tags ul li a span {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .sidebar .categories ul li a:hover,
 .sidebar .tags ul li a:hover {
   background-color: #f0f0f0;
 }
+
 .sidebar .tags ul {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
+
 .sidebar .tags ul li {
   border: none;
 }
+
 .sidebar .tags ul li a {
   display: block;
   padding: 5px 10px;
@@ -453,9 +486,11 @@ section {
   font-size: 14px;
   color: #333;
 }
+
 .sidebar .tags ul li a:hover {
   background-color: #f0f0f0;
 }
+
 .sidebar .ad img {
   width: 100%;
   height: auto;
@@ -476,5 +511,6 @@ section {
     margin-top: 20px;
   }
 }
+
 
 /*# sourceMappingURL=style.css.map */

@@ -1,8 +1,11 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const burgerMenu = document.querySelector(".burger-menu");
-  const nav = document.querySelector(".nav");
+const barsBar = document.getElementById("burger__wrapper");
+let isfalse = false;
 
-  burgerMenu.addEventListener("click", function () {
-    nav.classList.toggle("nav-active");
-  });
-});
+function handleClick() {
+  if (isfalse) {
+    barsBar.style.display = "flex";
+  } else {
+    barsBar.style.display = "none";
+  }
+  isfalse = !isfalse;
+}
